@@ -1,36 +1,54 @@
 {
-  "name": "api",
-  "private": true,
+  "name": "client",
   "version": "0.1.0",
-  "description": "A Strapi application",
-  "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
-  },
+  "private": true,
   "dependencies": {
-    "@strapi/plugin-cloud": "4.15.4",
-    "@strapi/plugin-i18n": "4.15.4",
-    "@strapi/plugin-users-permissions": "4.15.4",
-    "@strapi/strapi": "4.15.4",
-    "better-sqlite3": "8.6.0",
-    "mysql": "^2.18.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "stripe": "^14.5.0",
-    "styled-components": "5.3.3"
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.17",
+    "@stripe/react-stripe-js": "^1.16.1",
+    "@stripe/stripe-js": "^1.46.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "react": "^18.2.0",
+    "react-alice-carousel": "^2.8.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "sass": "^1.56.2",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
   },
-  "author": {
-    "name": "A Strapi developer"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "strapi": {
-    "uuid": "a6f782fc-a0d9-4361-9ef4-ccc4afd427f3"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "license": "MIT"
+  "proxy": "http://localhost:3001"
 }
