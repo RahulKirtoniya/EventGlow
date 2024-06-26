@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5a5fb7a0.css",
+    "main.js": "/static/js/main.b9dd5607.js",
+    "static/media/banner-img.png": "/static/media/banner-img.1fcae79cdfbe004756d4.png",
+    "static/media/newsletter-bg.jpeg": "/static/media/newsletter-bg.b6f22313149bdbb35069.jpeg",
+    "static/media/nail-prod-1.webp": "/static/media/nail-prod-1.14ab054e1609ad30fcad.webp",
+    "static/media/make-prod-1.webp": "/static/media/make-prod-1.517a29adcb2228ed4859.webp",
+    "index.html": "/index.html",
+    "main.5a5fb7a0.css.map": "/static/css/main.5a5fb7a0.css.map",
+    "main.b9dd5607.js.map": "/static/js/main.b9dd5607.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a5fb7a0.css",
+    "static/js/main.b9dd5607.js"
+  ]
+}
